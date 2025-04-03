@@ -4,6 +4,9 @@ services:
     build: .
     ports:
       - "49160:3000"
+      
+    restart: always
+    
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000"]
       interval: 30s
