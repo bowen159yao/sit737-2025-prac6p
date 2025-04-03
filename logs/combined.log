@@ -1,0 +1,22 @@
+{"level":"info","message":"Addition: 5 + 0 = 5","service":"calculator-microservice"}
+{"level":"error","message":"Cannot divide by zero","service":"calculator-microservice"}
+{"level":"info","message":"Power: 10 ^ 2 = 100","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: √100 = 10","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 100 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 100 % 5 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 100 % 5 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 1 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 1 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 1 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 1 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 5 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 1000 % 5 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 5 % 2 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: √5 = 2.23606797749979","service":"calculator-microservice"}
