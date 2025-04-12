@@ -1,28 +1,26 @@
-# SIT737 Task 5.1P – Dockerized Calculator Microservice
+# SIT737 Task 6.1P – Kubernetes Deployment of Calculator Microservice
 
-## 📘 Overview
+## ✅ Overview
 
-This project demonstrates how to containerize a simple **Node.js + Express** calculator microservice using Docker.  
-It supports basic arithmetic operations via REST API and a simple frontend UI.
-
-The application includes:
-
-- Dockerfile for building the app container
-- Docker Compose for running with a health check
-- Auto-restart policy for reliability
+This project demonstrates how to containerize and deploy a simple calculator microservice using **Docker**, and orchestrate it locally on **Kubernetes** via Docker Desktop (Windows 11).
 
 ---
 
-## 🚀 How to Run
+## 🔧 Prerequisites
 
-docker compose up --build
+- Windows 11 with Docker Desktop installed
+- Kubernetes enabled in Docker Desktop
+- Node.js & npm installed (for local testing)
+- Docker installed (bundled with Docker Desktop)
+- `kubectl` installed and configured to use `docker-desktop` context
 
-Once running, visit:
-👉 http://localhost:49160
+---
 
-### 🔹 1. Clone the Repository
+## 🛠️ Steps to Run Locally on Kubernetes
+
+### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/bowen159yao/sit737-2025-prac5p.git
-cd sit737-2025-prac5p
+git clone https://github.com/YOUR_USERNAME/sit737-2025-prac6p.git
+cd sit737-2025-prac6p
 ```
