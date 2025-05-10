@@ -1,7 +1,26 @@
 const express = require('express')
 const winston = require('winston')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
+
+
+const { MongoClient } = require("mongodb");
+const uri = process.env.MONGO_URL;
+const client = new MongoClient(uri);
+
+let db;
+
+async function connectMongo() {
+    try {
+        await client.connect();
+        db = client.db("calculatorDB");
+        console.log("✅ Connected to MongoDB");
+    } catch (e) {
+        console.error("❌ MongoDB connection error:", e);
+    }
+}
+connectMongo();
+
 
 app.use(express.json())
 

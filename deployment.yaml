@@ -13,7 +13,10 @@ spec:
         app: calculator
     spec:
       containers:
-        - name: calculator
-          image: bowenyao159/calculator-app:v2
+        - name: calculator-container
+          image: bowenyao159/calculator-app:v3
           ports:
             - containerPort: 3000
+          env:
+            - name: MONGO_URL
+              value: "mongodb://admin:password@mongodb-service:27017/?authSource=admin"

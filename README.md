@@ -1,26 +1,41 @@
-# SIT737 Task 6.1P – Kubernetes Deployment of Calculator Microservice
+# SIT737 Task 9.1P – Adding a Database to a Microservice
 
-## ✅ Overview
+## 🧾 Overview
 
-This project demonstrates how to containerize and deploy a simple calculator microservice using **Docker**, and orchestrate it locally on **Kubernetes** via Docker Desktop (Windows 11).
-
----
-
-## 🔧 Prerequisites
-
-- Windows 11 with Docker Desktop installed
-- Kubernetes enabled in Docker Desktop
-- Node.js & npm installed (for local testing)
-- Docker installed (bundled with Docker Desktop)
-- `kubectl` installed and configured to use `docker-desktop` context
+This project demonstrates a Node.js-based calculator microservice deployed in a Kubernetes environment. The microservice performs arithmetic operations and stores calculation logs in a MongoDB database using Kubernetes-native configurations.
 
 ---
 
-## 🛠️ Steps to Run Locally on Kubernetes
+## 🧰 Technologies Used
 
-### 1. Clone This Repository
+- Node.js
+- Express.js
+- MongoDB
+- Docker & Docker Compose
+- Kubernetes (with kubectl)
+- MongoDB Node.js Driver
+- Winston Logger
+
+---
+
+## 🏗 Project Structure
+
+├── Dockerfile
+├── server.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── deployment.yaml
+├── service.yaml
+├── mongodb-deployment.yaml
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sit737-2025-prac6p.git
-cd sit737-2025-prac6p
+git clone https://github.com/your-username/sit737-2025-prac9p.git
+cd sit737-2025-prac9p
 ```
